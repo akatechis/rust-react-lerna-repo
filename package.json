@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "name": "rust-react-lerna-repo",
+	"devDependencies": {
+		"lerna": "^3.4.0"
+	},
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ]
+}
